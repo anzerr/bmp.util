@@ -15,7 +15,7 @@ class Encode {
 
 	constructor(data) {
 		this.buffer = data.data;
-		this.endian = data.endian || true;
+		this.endian = data.endian !== false;
 		const header = data.header || data;
 		const bitPP = header.bitPP || 24;
 		this.header = {
