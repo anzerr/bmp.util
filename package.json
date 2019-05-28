@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/anzerr/bmp.util.git"
+		"url": "git@github.com:anzerr/bmp.util.git"
 	},
 	"license": "MIT",
 	"author": "anzerr",
