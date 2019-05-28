@@ -1,8 +1,19 @@
 {
 	"name": "bmp.util",
 	"version": "1.0.0",
-	"description": "",
+	"keywords": [],
+	"homepage": "https://github.com/anzerr/bmp.util#readme",
+	"bugs": {
+		"url": "https://github.com/anzerr/bmp.util/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anzerr/bmp.util.git"
+	},
+	"license": "MIT",
+	"author": "anzerr",
 	"main": "index.js",
+	"types": "index.d.ts",
 	"directories": {
 		"lib": "lib",
 		"test": "test"
@@ -10,26 +21,14 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"keywords": [],
-	"author": "anzerr",
-	"license": "MIT",
+	"eslintConfig": {
+		"extends": "eslint-config-basic"
+	},
 	"devDependencies": {
 		"eslint": "5.11.1",
 		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
 	},
-	"eslintConfig": {
-		"extends": "eslint-config-basic"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/anzerr/bmp.util.git"
-	},
 	"engines": {
 		"node": ">= 0.10.0"
-	},
-	"types": "index.d.ts",
-	"bugs": {
-		"url": "https://github.com/anzerr/bmp.util/issues"
-	},
-	"homepage": "https://github.com/anzerr/bmp.util#readme"
+	}
 }
