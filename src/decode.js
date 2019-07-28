@@ -24,6 +24,8 @@ class Decoder {
 			throw new Error('Invalid BMP File');
 		}
 		this.data = this.parse(this.getHeader());
+		this.height = this.header.height;
+		this.width = this.header.width;
 	}
 
 	getHeader() {
