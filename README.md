@@ -4,7 +4,8 @@ Util to encode and decode bmp in nodejs
 
 #### `Install`
 ``` bash
-npm install --save git+https://git@github.com/anzerr/bmp.util.git
+npm install --save git+https://github.com/anzerr/bmp.util.git
+npm install --save @anzerr/bmp.util
 ```
 
 ### `Example`
