@@ -1,7 +1,13 @@
 {
 	"name": "bmp.util",
 	"version": "1.0.7",
-	"keywords": [],
+	"description": "encode and decode bmp",
+	"keywords": [
+		"bmp",
+		"image",
+		"nodejs",
+		"util"
+	],
 	"homepage": "https://github.com/anzerr/bmp.util#readme",
 	"bugs": {
 		"url": "https://github.com/anzerr/bmp.util/issues"
@@ -17,9 +23,6 @@
 	"directories": {
 		"lib": "lib",
 		"test": "test"
-	},
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"eslintConfig": {
 		"extends": "eslint-config-basic"

@@ -1,5 +1,7 @@
 
 ### `Intro`
+![GitHub Actions status | publish](https://github.com/anzerr/bmp.util/workflows/publish/badge.svg)
+
 Util to encode and decode bmp in nodejs
 
 #### `Install`
