@@ -1,6 +1,6 @@
 {
 	"name": "bmp.util",
-	"version": "1.0.12",
+	"version": "1.0.13",
 	"description": "encode and decode bmp",
 	"keywords": [
 		"bmp",
